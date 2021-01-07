@@ -1,8 +1,13 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
 import React from 'react';
 
-const App: React.FC = () => {
-  return <div className="App" />;
-};
+import './styles/global.css';
+
+function App() {
+  return (
+    <div className="App">
+      <h1>Hello World</h1>
+    </div>
+  );
+}
 
 export default App;
